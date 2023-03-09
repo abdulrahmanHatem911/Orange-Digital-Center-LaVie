@@ -45,7 +45,7 @@ class BlogsDetailsScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 20.0),
                   child: Text(
-                    '$data.description',
+                    '${data.description}',
                     style: Theme.of(context).textTheme.headline2!.copyWith(
                           height: 2.0,
                         ),

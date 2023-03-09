@@ -38,7 +38,7 @@ class LayoutScreen extends StatelessWidget {
               },
               items: <Widget>[
                 Image.asset(
-                  'assets/images/plant.png',
+                  'assets/images/plant_button.png',
                   color: cubit.currentIndex == 0 ? PWhite : Colors.black,
                 ),
                 Image.asset(
